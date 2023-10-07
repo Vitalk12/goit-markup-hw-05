@@ -606,6 +606,9 @@ a {
 .form-modal {
   margin-bottom: 8px;
 }
+.form-modal-comment{
+  margin-bottom: 16px;
+}
 .label-modal {
   font-size: 12px;
   line-height: 1.17;
