@@ -673,7 +673,12 @@ a {
 .checkbox {
   margin-bottom: 24px;
 }
-.checkbox-input {
+.checkbox-input:checked + .checkbox-label> .span-checkbox{
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+
+
 }
 .checkbox-label {
   font-size: 12px;
@@ -695,6 +700,8 @@ a {
   fill: transparent;
 }
 .checkbox-svg {
+  fill:transparent;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-a {
   color: #4d5ae5;
